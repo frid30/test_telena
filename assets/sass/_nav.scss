@@ -1,0 +1,69 @@
+nav {
+    background: $white;
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .nav-item {
+        margin-left: 35px;
+
+        .nav-link {
+            font: 500 15px/15px $montserrat;
+            color: $black !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+    }
+
+    .navbar-toggler {
+        box-shadow: none !important;
+        outline: none;
+        border: none;
+        padding: 0;
+        
+        .line {
+            width: 30px;
+            height: 2px;
+            background: $black;
+            display: block;
+        }
+
+        .line-2 {
+            margin-top: 6px;
+            margin-bottom: 6px;
+        }
+    }
+
+    .dropdown-menu {
+        background: $secondary-color !important;
+        border-radius: 0;
+        outline: none;
+        box-shadow: 0 0 5px 0 rgba($color: #000000, $alpha: 0.3);
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: -.5em;
+            left: 20px;
+            display: inline-block;
+            border-bottom: .5em solid $secondary-color;
+            border-right: .5em solid transparent;
+            border-top: 0;
+            border-left: .5em solid transparent;
+
+        }
+
+        .dropdown-item {
+            background: none !important;
+            color: $white;
+            font-size: 14px;
+            font-weight: 500;
+            transition: .4s;
+
+            &:hover, &:focus-visible {
+                transform: translateX(5px);
+            }
+        }
+    }
+}

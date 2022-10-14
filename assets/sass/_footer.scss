@@ -1,0 +1,62 @@
+/* Footer CSS start */
+
+#footer {
+    padding-top: 100px;
+    background: $secondary-color;
+    padding-bottom: 20px;
+
+    .footer-brand {
+        width: 160px;
+    }
+
+    h6 {
+        color: $white;
+        text-transform: uppercase;
+        font: 700 16px/16px $montserrat;
+    }
+
+    .footer-link li a {
+        color: rgba($color: $white, $alpha: .73);
+        font: 500 15px/19px $montserrat;
+        text-transform: capitalize;
+        margin-top: 7px;
+        display: inline-block;
+        transition: .4s;
+
+        &:hover {
+            color: $white;
+        }
+    }
+
+    .footer-bottom {
+        margin-top: 100px;
+
+        .footer-link {
+            display: flex;
+            align-items: center;
+
+            li {
+                margin-right: 30px;
+            }
+        }
+
+        .footer-social {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            
+            li {
+                margin-left: 15px;
+
+                a {
+
+                    svg {
+                        fill: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Footer CSS end */

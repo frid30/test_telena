@@ -1,0 +1,72 @@
+
+.animate {
+
+    .animate-slide-right-full {
+        position: relative;
+        transform: translateX(-100vw);
+        transition: $animation-time linear;
+    }
+
+    .animate-slide-right-half {
+        position: relative;
+        transform: translateX(-50vw);
+        transition: $animation-time linear;
+    }
+
+    .animate-fade {
+        opacity: 0;
+        visibility: hidden;
+        transition: $animation-time linear;
+    }
+
+    .animate-slide-left-half {
+        position: relative;
+        transform: translateX(50vw);
+        transition: $animation-time linear;
+    }
+
+    .animate-slide-top-half {
+        position: relative;
+        transform: translateY(50vh);
+        transition: $animation-time linear;
+    }
+
+    .animate-slide-top-full {
+        position: relative;
+        transform: translateY(100vh);
+        transition: $animation-time linear;
+    }
+
+    .navbar-brand-animate {
+        transform: translateY(200vh);
+    }
+
+    &.animation {
+
+        .animate-slide-right-full {
+            transform: translateX(0);
+        }
+
+        .animate-slide-right-half {
+            position: relative;
+            transform: translateX(0);
+        }
+
+        .animate-fade {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .animate-slide-left-half {
+            transform: translateX(0);
+        }
+
+        .animate-slide-top-half {
+            transform: translateY(0);
+        }
+
+        .animate-slide-top-full {
+            transform: translateY(0);
+        }
+    }
+}

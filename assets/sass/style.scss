@@ -1,0 +1,30 @@
+
+@import 'variable';
+
+/* Universal CSS start */
+
+@import 'universal';
+
+/* Universal CSS end */
+
+
+/* override bootstrap start */
+
+@import 'overridebs5';
+
+/* override bootstrap end */
+
+/* Nav menu css start */
+
+@import 'nav';
+
+/* Nav menu css end */
+
+
+@import 'home';
+
+
+@import 'footer';
+
+
+@import 'animation';
